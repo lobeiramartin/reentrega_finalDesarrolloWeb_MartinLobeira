@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("/assets/img/InkSumos_wallpaper.png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  cursor: url("/assets/img/cursorink_white.png"), auto;
+}
+
+@keyframes cambiarColor {
+  0% {
+    color: rgb(110, 7, 7); 
+  }
+  50% {
+    color: rgb(192, 7, 31);
+  }
+  100% {
+    color: rgb(110, 7, 7); 
+  }
+}
+
+h1 {
+  font-family: "Jacquard 24", system-ui;
+  text-align: center;
+  font-size: 4rem; 
+  animation: cambiarColor 2s infinite; 
+}
+
+h2 {
+  color: rgb(172, 26, 0);
+  text-align: center;
+}
+
+h3 {
+  text-decoration: none;
+}
+

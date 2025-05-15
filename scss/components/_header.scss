@@ -1,0 +1,30 @@
+.container-fluid {
+  background-color: black;
+  padding: 15px;
+  cursor: url("/assets/img/cursorink_white.png"), auto;
+
+  .navbar-brand img{
+    border-radius: 7px;
+  }
+
+  .nav-item a {
+  color: whitesmoke;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #517691;
+  }
+}
+
+  .navbar {
+    .btn-outline-success {
+      color: white;
+      border: 1px solid black;
+
+      &:hover {
+        background-color: #517691;
+        color: #fff;
+      }
+    }
+  }
+}

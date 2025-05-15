@@ -1,0 +1,38 @@
+footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+  margin: 10px;
+
+.brand {
+  display: flex;
+  justify-content: flex-end;
+}
+
+  .social-icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+    a {
+      font-size: 24px;
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: #0e4770;
+        animation: bounce;
+        animation-duration: 0.5s;
+      }
+    }
+  }
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
